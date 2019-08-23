@@ -4,18 +4,26 @@ body{
   font-family: 'Karla', SANS-SERIF;
   font-weight: bold;
 }
-#gameBoard {
-  width: 600px;
-  margin: 80px auto 0px auto;
-  text-align: center;
+.App {
+  display: flex;
+  justify-content: center;
 }
 
 .container {
   width: 600px;
   height: 600px;  
   display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.gameBoard {
+  width: 600px;
+  height: 600px;  
+  display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+
 }
 
 .square {
